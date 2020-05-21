@@ -3,7 +3,7 @@
 
 Sampler is a tool for shell commands execution, visualization and alerting. Configured with a simple YAML file.
 
-![sampler](https://user-images.githubusercontent.com/6069066/56404396-70b14d00-6234-11e9-93cd-54461bf40c96.gif)
+![sampler](https://github.com/drumbsd/sampler_openbsd/blob/master/sampler.gif)
 
 ## Why do I need it?
 One can sample any dynamic process right from the terminal — observe changes in the database, monitor MQ in-flight messages,  trigger a deployment script and get notification when it's done. 
