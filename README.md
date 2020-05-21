@@ -40,6 +40,13 @@ or
 
 [Download .exe](https://github.com/sqshq/sampler/releases/download/v1.1.0/sampler-1.1.0-windows-amd64.exe)
 
+### OpenBSD
+```bash
+pkg_add -r openal
+git clone git@github.com:drumbsd/sampler_openbsd.git
+cd sampler_openbsd && go build && ./sampler -c example.yml
+```
+
 ## Usage
 You specify shell commands, Sampler executes them with a required rate. The output is used for visualization.
 
