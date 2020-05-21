@@ -43,6 +43,7 @@ or
 ### OpenBSD
 ```bash
 pkg_add -r openal
+pkg_add -r go
 git clone git@github.com:drumbsd/sampler_openbsd.git
 cd sampler_openbsd && go build && ./sampler -c example.yml
 ```
