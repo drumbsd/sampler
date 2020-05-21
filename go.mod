@@ -3,7 +3,7 @@ module github.com/sqshq/sampler
 require (
 	github.com/gizak/termui/v3 v3.0.0
 	github.com/hajimehoshi/go-mp3 v0.1.1
-	github.com/hajimehoshi/oto v0.1.1
+	github.com/hajimehoshi/oto v0.5.4
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/kr/pty v1.1.5
 	github.com/lunixbochs/vtclean v1.0.0
@@ -13,3 +13,5 @@ require (
 	github.com/mitchellh/go-wordwrap v1.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20190709130402-674ba3eaed22
 )
+
+go 1.13
